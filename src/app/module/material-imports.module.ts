@@ -37,7 +37,10 @@ import {MatPaginatorModule} from '@angular/material/paginator';
 @NgModule({
   declarations: [],
   imports: [
+<<<<<<< HEAD
     BrowserAnimationsModule,
+=======
+>>>>>>> 3b54e542249dccf31e25a723f52b1151a667a408
     MatCheckboxModule,
     MatCheckboxModule,
     MatButtonModule,
