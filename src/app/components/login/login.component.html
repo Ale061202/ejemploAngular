@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formualrio de login</title>
+  </head>
+  <body>
+    <h1>Formulario de login</h1>
+    <mat-form-field appearance="fill">
+      <mat-label>Email</mat-label>
+      <input matInput />
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Enter your password</mat-label>
+      <input matInput [type]="visible ? 'password' : 'text'" />
+      <button
+        mat-icon-button
+        matSuffix
+        (click)="visible = !visible"
+        [attr.aria-label]="'Hide password'"
+        [attr.aria-pressed]="visible"
+      >
+        <mat-icon>{{ visible ? "visibility_off" : "visibility" }}</mat-icon>
+      </button>
+    </mat-form-field>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<h1>Formulario Angular</h1>
+<mat-form-field appearance="fill">
+  <mat-label>Escriba su nombre:</mat-label>
+  <input matInput [(ngModel)]="inputName" />
+</mat-form-field>
+<mat-form-field appearance="fill">
+  <mat-label>Escriba sus apellidos</mat-label>
+  <input matInput [(ngModel)]="inputApellidos" />
+</mat-form-field>
+<mat-form-field appearance="fill">
+  <mat-label>Escriba su email</mat-label>
+  <input matInput [(ngModel)]="inputEmail" />
+</mat-form-field>
+<mat-form-field appearance="fill">
+  <mat-label>Escriba su NIF</mat-label>
+  <input matInput [(ngModel)]="inputNif" />
+</mat-form-field>
+<mat-form-field appearance="fill">
+  <mat-label>Escriba su telefono</mat-label>
+  <input matInput [(ngModel)]="inputTelefono" />
+</mat-form-field>
+<mat-form-field appearance="fill">
+  <mat-label>Seleccionar</mat-label>
+  <mat-select>
+    <mat-option value="one">Hombre</mat-option>
+    <mat-option value="two">Mujer</mat-option>
+  </mat-select>
+</mat-form-field>
+<mat-form-field appearance="fill">
+  <mat-label>Como nos conociste</mat-label>
+  <mat-select>
+    <mat-option value="one">Por Google</mat-option>
+    <mat-option value="two">Por un amigo</mat-option>
+    <mat-option value="three">Por un profesor</mat-option>
+  </mat-select>
+</mat-form-field>
+<mat-checkbox required class="example-margin">Aceptar términos y condiciones del registor</mat-checkbox
+>
+<button mat-raised-button id="boton" (click)="showText();">Registar</button>
+<div id="texto">
+  <p>Te llamas {{ inputName }} {{ inputApellidos }}</p>
+  <p>Con el correo {{inputEmail}}</p>
+  <p>Con número de teléfono {{inputTelefono}}</p>
+  <p>Con NIF {{inputNif}}</p>
+</div>

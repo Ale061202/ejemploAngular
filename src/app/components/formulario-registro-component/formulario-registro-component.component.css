@@ -1,0 +1,15 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  p{
+    margin-top: 20px;
+    display: none;
+  }
+  
+  button{
+    margin-top: 15px;
+  }
+  
