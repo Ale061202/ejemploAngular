@@ -9,7 +9,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { MaterialImportsModule } from './module/material-imports.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
-
+import { ExpansionPanelComponent } from './components/expansion-panel/expansion-panel.component';
+import { TableComponent } from './components/table/table.component';
+import { ListaComponent } from './lista/lista.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,10 @@ import { FormsModule } from '@angular/forms';
     HeaderComponent,
     LoginComponent,
     SignupComponent,
-    FormularioRegistroComponentComponent
+    FormularioRegistroComponentComponent,
+    TableComponent,
+    ExpansionPanelComponent,
+    ListaComponent
   ],
   imports: [
     BrowserModule,
