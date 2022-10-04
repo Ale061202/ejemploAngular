@@ -17,9 +17,9 @@ export class ListaComponent implements OnInit {
   }
 
   profesor: profesores[] = [
-    //{id: '1',name: 'Alejandro',surname: 'Fernandez',age: 20,sex: 'Male'},  
-    //{id: '2',name: 'Ángela',surname: 'Gomez',age: 20,sex: 'Female'},  
-    //{id: '3',name: 'Lucia',surname: 'Villalba',age: 20,sex: 'Female'},  
-    //{id: '4',name: 'David',surname: 'Cano',age: 20,sex: 'Male'},  
+    {id: '1',name: 'Alejandro',surname: 'Fernandez',age: 20,},  
+    {id: '2',name: 'Ángela',surname: 'Gomez',age: 20,},  
+    {id: '3',name: 'Lucia',surname: 'Villalba',age: 20,},  
+    {id: '4',name: 'David',surname: 'Cano',age: 20,},  
   ];
 }

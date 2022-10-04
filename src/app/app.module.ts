@@ -12,6 +12,7 @@ import { FormsModule } from '@angular/forms';
 import { ExpansionPanelComponent } from './components/expansion-panel/expansion-panel.component';
 import { TableComponent } from './components/table/table.component';
 import { ListaComponent } from './lista/lista.component';
+import { StorageComponent } from './storage/storage.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ListaComponent } from './lista/lista.component';
     FormularioRegistroComponentComponent,
     TableComponent,
     ExpansionPanelComponent,
-    ListaComponent
+    ListaComponent,
+    StorageComponent
   ],
   imports: [
     BrowserModule,
