@@ -9,19 +9,10 @@ import { HeaderComponent } from './components/header/header.component';
 import { MaterialImportsModule } from './module/material-imports.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
-<<<<<<< HEAD
-import { TableComponent } from './components/table/table.component';
-import { ExpansionPanelComponent } from './components/expansion-panel/expansion-panel.component';
-
-=======
 import { ExpansionPanelComponent } from './components/expansion-panel/expansion-panel.component';
 import { TableComponent } from './components/table/table.component';
-import { ListaComponent } from './lista/lista.component';
-<<<<<<< HEAD
-import { StorageComponent } from './storage/storage.component';
-=======
->>>>>>> 89329297318c5dbe7036bddb24642067c7d92a7f
->>>>>>> 0be48bb1d7c04e525d0335c5fd6538816e9492c1
+import { ListaComponent } from './components/lista/lista.component';
+import { StorageComponent } from './components/storage/storage.component';
 
 @NgModule({
   declarations: [
@@ -31,17 +22,9 @@ import { StorageComponent } from './storage/storage.component';
     SignupComponent,
     FormularioRegistroComponentComponent,
     TableComponent,
-<<<<<<< HEAD
-    ExpansionPanelComponent
-=======
     ExpansionPanelComponent,
-<<<<<<< HEAD
-    ListaComponent,
-    StorageComponent
-=======
+    StorageComponent,
     ListaComponent
->>>>>>> 89329297318c5dbe7036bddb24642067c7d92a7f
->>>>>>> 0be48bb1d7c04e525d0335c5fd6538816e9492c1
   ],
   imports: [
     BrowserModule,

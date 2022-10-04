@@ -1,18 +1,18 @@
 import {Component, OnInit} from '@angular/core';
 
 
-export interface PeriodicElement {
+export interface Alumno {
   name: string;
-  position: string;
-  weight: string;
-  symbol: string;
+  surname: string;
+  birth: string;
+  grade: string;
 }
 
-const ELEMENT_DATA: PeriodicElement[] = [
-  {position: 'Fernandez', name: 'Alejandro', weight: '06-12-2002', symbol: '2ºDAM'},
-  {position: 'Cano', name: 'David', weight: '20-08-2002', symbol: '2ºTEAS'},
-  {position: 'Trujillo', name: 'Mario', weight: '03-02-2002', symbol: '2ºTEAS'},
-  {position: 'Gomez', name: 'Angela', weight: '10-10-2002', symbol: '2ºAyF'},
+const STUDENT_DATA: Alumno[] = [
+  {name: "Alejandro",surname: "Fernandez",birth: "06-12-2002",grade: "2ºDAM"},
+  {name: "David",surname: "Cano",birth: "20-08-2002",grade: "2ºTEAS"},
+  {name: "Mario",surname: "Trujillo",birth: "23-10-2002",grade: "2ºTEAS"},
+  {name: "Angela",surname: "Gomez",birth: "12-06-2002",grade: "2ºAyF"},
 ];
 
 @Component({
@@ -22,9 +22,8 @@ const ELEMENT_DATA: PeriodicElement[] = [
 })
 
 export class TableComponent implements OnInit {
-
-  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
-  dataSource = ELEMENT_DATA;
+  displayedColumns: string[] = ['name','surname','birth','grade'];
+  dataSource = STUDENT_DATA;
 
   constructor() { }
 

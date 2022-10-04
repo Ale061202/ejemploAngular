@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { profesores } from '../models/model.interface';
+import { profesores } from '../../models/model.interface';
 
 
 @Component({
